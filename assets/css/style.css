@@ -1,0 +1,264 @@
+:root {
+    --cor-de-borda-primaria: #b30000;
+    --cor-strong: rgb(143, 206, 54);
+    --cor-de-fundo-primário: #0085FF;
+    --h1-background: #233333;
+    --cor-p: #EEEEEE;
+    --cor-text-link: #31fcf2;
+    --cor-text: rgb(0, 0, 0);
+    --cor-text-mine: #31f348;
+    --cor-text-mine-2: rgb(77, 24, 199);
+    --cor-p-2: #3e9eff;
+    --cor-ol: aquamarine;
+    --cor-credit: #065f11;
+    --cor-credit-2:  #043d0a;
+    --cor-back: #022d55;
+}
+
+html {
+    background-color: var(--cor-back)
+}
+
+body div {
+    background-color: var(--cor-de-fundo-primário)
+}
+
+h1 {
+    color: var(--cor-de-fundo-primário);
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: var(--h1-background);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1 {
+    padding: 0.5rem;
+}
+
+body header div h3 a {
+    color: var(--cor-text-link)
+}
+
+body header div h3 {
+    color: var(--cor-p)
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    color: var(--cor-text-mine)
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-family: Minecrafter Alt;
+    background-color: var(--cor-text-mine-2);
+    padding: 0.75rem;
+}
+
+
+
+ul {
+    padding-left: 2rem;
+    list-style-type: disc;
+    font-size: 1.2rem;
+}
+
+p {
+    color: var(--cor-p);
+    background-color: var(--cor-p-2);
+    font-size: 1.4rem;
+}
+
+ol {
+    padding: 1.5rem;
+    color: var(--cor-ol)
+}
+
+ol {
+    font-size: 1.5rem;
+}
+
+body article ol a{
+    color: var(--cor-p)
+}
+main div section ul {
+    color: var(--cor-text)
+}
+
+strong {
+    color: var(--cor-strong)
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+body nav ul a {
+    color: var(--cor-text-link)
+}
+
+body nav ul {
+    list-style-type: none;
+    padding: 0.25rem;
+}
+
+body header div section {
+    border: 7px solid var(--cor-de-borda-primaria);
+}
+
+body header div section h2 {
+    margin-top: 0;
+}
+
+body header div section {
+    padding: 1.5rem;
+}
+
+main div section p{
+    font-size: 2.6rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0.75rem;
+}
+
+body header div section {
+    width: 850px;
+}
+
+body header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+body header div {
+    box-sizing: border-box;
+    padding: 0.25rem;
+}
+
+body main div section {
+    width: 665px;
+}
+
+body main div {
+    display: flex;
+    justify-content: space-between;
+}
+
+body article {
+    border: 7px solid var(--cor-de-borda-primaria);
+}
+
+body article div {
+    width: 655px;
+}
+
+body article {
+    display: flex;
+    justify-content: space-between
+}
+
+body article {
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+body article section {
+    padding: 1.5rem;
+}
+
+footer section h4 {
+    display: inline-block;
+    padding: 0.50rem;
+    background-color: var(--cor-credit)
+}
+
+footer section h4 {
+    border-radius: 0.5rem;
+    color: rgb(177, 176, 176);
+}
+
+footer section h4 {
+   /* font-family: Arial, Helvetica, sans-serif; */
+   box-shadow: var(--cor-credit-2) 0 0 10px 10px;
+   padding: 0rem;
+}
+
+footer section {
+    width: 665px;
+}
+
+footer nav {
+    width: 665px;
+}
+
+footer section h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5rem;
+}
+
+body header div section h2 {
+    margin-bottom: 0;
+}
+
+ul {
+    color:var(--h1-background)
+}
+
+/* Extras */
+input {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+label {
+    border: solid 3px var(--cor-de-borda-primaria);
+    color: #033f77;
+}
+
+label {
+    font-family: "Minecrafter Alt";
+    font-size: x-large;
+    position: absolute;
+    top: 129px;
+    right: 366.715px;
+}
+
+header {
+    position: relative;
+}
+
+.activate:checked {
+    display: none;
+}
+
+label span {
+    position: absolute;
+}
+
+.activate:checked ~ .dark-mode {
+    --cor-de-borda-primaria: #3c3c3c;
+    --cor-strong: rgb(38, 61, 4);
+    --cor-de-fundo-primário: #000000;
+    --h1-background: #575757;
+    --cor-p: #a0a0a0;
+    --cor-text-link: #125a57;
+    --cor-text: rgb(209, 209, 209);
+    --cor-text-mine: #1a8226;
+    --cor-text-mine-2: rgb(19, 30, 90);
+    --cor-p-2: #2f3c49;
+    --cor-ol: rgb(70, 145, 120);
+    --cor-credit: #0b7217;
+    --cor-credit-2:  #0f6418;
+}
