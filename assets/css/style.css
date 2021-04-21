@@ -15,6 +15,11 @@
     --cor-back: #022d55;
 }
 
+@font-face {
+    font-family: 'Fonte-Mine';
+    src: url(fonts/Minecrafter.Alt.ttf);
+}
+
 html {
     background-color: var(--cor-back)
 }
@@ -55,9 +60,9 @@ h2 {
 
 h2 {
     font-size: 1.8rem;
-    font-family: Minecrafter Alt;
+    font-family: 'Fonte-Mine';
     background-color: var(--cor-text-mine-2);
-    padding: 0.75rem;
+    padding: 0.25rem;
 }
 
 
@@ -228,11 +233,11 @@ label {
 }
 
 label {
-    font-family: "Minecrafter Alt";
+    font-family: 'Fonte-Mine';
     font-size: x-large;
     position: absolute;
-    top: 129px;
-    right: 366.715px;
+    top: 74px;
+    right: 538.834px;
 }
 
 header {
