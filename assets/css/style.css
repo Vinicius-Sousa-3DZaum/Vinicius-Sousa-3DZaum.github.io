@@ -236,8 +236,8 @@ label {
     font-family: 'Fonte-Mine';
     font-size: x-large;
     position: absolute;
-    top: 74px;
-    right: 538.834px;
+    top: 129px;
+    right: 367.831px;
 }
 
 header {
@@ -266,4 +266,16 @@ label span {
     --cor-ol: rgb(70, 145, 120);
     --cor-credit: #0b7217;
     --cor-credit-2:  #0f6418;
+}
+
+/* MEDIA */
+
+@media only screen and (min-width: 1024px) {
+    label {
+        font-family: 'Fonte-Mine';
+        font-size: x-large;
+        position: absolute;
+        top: 74px;
+        right: 538.834px;
+    }
 }
