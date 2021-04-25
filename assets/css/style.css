@@ -41,6 +41,9 @@ h1 {
 h1 {
     padding: 0.5rem;
 }
+body header div {
+    gap: 10px;
+}
 
 body header div h3 a {
     color: var(--cor-text-link)
