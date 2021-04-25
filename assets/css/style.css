@@ -24,6 +24,14 @@ html {
     background-color: var(--cor-back)
 }
 
+h1 {
+    transition: 0.8s linear;
+}
+
+div {
+    transition: 0.8s linear;
+}
+
 body div {
     background-color: var(--cor-de-fundo-primário)
 }
@@ -268,7 +276,7 @@ label {
     position: absolute;
     top: 129px;
     right: 367.831px;
-    transition: 0.5s linear;
+    transition: 0.8s linear;
 }
 
 header {
