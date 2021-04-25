@@ -268,6 +268,7 @@ label {
     position: absolute;
     top: 129px;
     right: 367.831px;
+    transition: 0.5s linear;
 }
 
 header {
